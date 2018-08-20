@@ -1,26 +1,8 @@
-package com.yit.common.utils;
-
-import java.io.IOException;
-import java.math.BigDecimal;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-
-import com.google.common.collect.Lists;
-import com.google.common.primitives.Ints;
-import com.google.common.primitives.Longs;
-import com.yit.common.entity.EqualsFunc;
-import com.yit.common.entity.FilterFunc;
-import com.yit.common.utils.serializer.JavaObjectSerializer;
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.util.CollectionUtils;
 
 /**
  * 一些通用的基本的工具方法
  */
-public class CommonUtils {
+    public class JavaUtils {
 
     static JavaObjectSerializer javaObjectSerializer = new JavaObjectSerializer();
 
