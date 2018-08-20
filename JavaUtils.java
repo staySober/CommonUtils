@@ -2,7 +2,7 @@
 /**
  * 一些通用的基本的工具方法
  */
-    public class JavaUtils {
+public class JavaUtils {
 
     static JavaObjectSerializer javaObjectSerializer = new JavaObjectSerializer();
 
